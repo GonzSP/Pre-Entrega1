@@ -1,0 +1,123 @@
+/* Reseteo de espacios para unificar la lectura de la página web en todos los navegadores*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornsilk;
+}
+
+#lista-desordenada {
+    background-image: url(../img/cuadro5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    color: black;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.foto_dimension {
+    width: 30rem;
+    display: flex;
+    align-items: center;
+}
+
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.fuente-grande {
+    font-size: 50px;
+    font-style: italic;
+}
+
+#fondo-cabezal {
+    background-color: goldenrod;
+}
+
+#formato__header {
+    background-color:darksalmon;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+p {
+    line-height: 1.9;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color:darkcyan;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    margin-left: 5px;
+    padding: 10px;
+    
+    
+}
+
+.imagen__logo {
+    width: 8rem;
+    margin-right: 4rem;
+    
+}
+
+.caja__contacto {
+    border:double 5px lightgreen;
+    width: 25rem;
+    line-height: 3.0;
+    padding: 20px;
+    margin-left: 30px;
+    
+}
+
+.caja__seleccion-contacto {
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+.formato__footer {
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    background-color: darksalmon;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.tamano__imagen_redes {
+    width: 10rem;
+    margin-left: 40px;
+    float: right;
+}
+
+
+
